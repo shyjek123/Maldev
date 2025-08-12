@@ -1,0 +1,3 @@
+for DLL Hijacking use this resource to locate target dlls that are known to be vulnerable
+
+https://hijacklibs.net/
